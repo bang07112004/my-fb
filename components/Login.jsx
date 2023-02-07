@@ -5,7 +5,7 @@ import { signIn } from "next-auth/react";
 const Login = () => {
   return (
     <div className="grid grid-cols-2">
-      <div className="bg-primary">
+      <div className="bg-primary h-screen grid place-items-center">
         <BsFacebook className="text-white text-[200px]" />
       </div>
       <div className="grid place-items-center bg-black">
